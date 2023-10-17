@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources\resources">
+      <UniqueIdentifier>{2f766c65-b590-43f2-b2aa-e605b49ea1c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\resources\interface">
+      <UniqueIdentifier>{7f3b7530-5821-417d-b2b3-e23f23ebae3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\resources\lang">
+      <UniqueIdentifier>{bfe95cb6-0333-41b1-932a-71f8a7e23961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\resources\minecraft">
+      <UniqueIdentifier>{f89e04ea-d9b7-4752-bd9b-dbd763c510d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\resources\audio">
+      <UniqueIdentifier>{41953da6-db52-49a5-9ae7-f8049f4632e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\resources\blocks">
+      <UniqueIdentifier>{d437a81e-13a1-4811-8dea-83557144484b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\resources\fonts">
+      <UniqueIdentifier>{7cd44188-43d9-474c-87ba-3113eb98b56a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\resources\items">
+      <UniqueIdentifier>{b9ab1fba-860a-4617-9b8e-099f23609c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\resources\music">
+      <UniqueIdentifier>{a26170c5-4ec7-423e-bd50-6539d13c9ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\block_behaviors">
+      <UniqueIdentifier>{63294f94-4c14-4811-b579-92bec882d15f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="loop.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="display.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="res.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="chunk.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="simple_block.cpp">
+      <Filter>Fichiers sources\block_behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="redstone_wire.cpp">
+      <Filter>Fichiers sources\block_behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="redstone_block.cpp">
+      <Filter>Fichiers sources\block_behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="repeater.cpp">
+      <Filter>Fichiers sources\block_behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="behavior.cpp">
+      <Filter>Fichiers sources\block_behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="torch.cpp">
+      <Filter>Fichiers sources\block_behaviors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="display.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="loop.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="res.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="program_const.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="block_enum.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="behaviors.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RedstoneSimulator.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fr.txt">
+      <Filter>Fichiers de ressources\resources\lang</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
